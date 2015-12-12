@@ -1,0 +1,50 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.css);
+html, body, #heroimage {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif; }
+
+#heroimage {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/red-rock3.png") center center;
+  background-size: cover; }
+  #heroimage #navbar-primary .navbar-nav {
+    width: 100%;
+    text-align: center;
+    color: #fff; }
+    #heroimage #navbar-primary .navbar-nav > li {
+      display: inline-block;
+      float: none;
+      margin-top: .5em; }
+      #heroimage #navbar-primary .navbar-nav > li > a {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        color: #000; }
+      #heroimage #navbar-primary .navbar-nav > li #initials {
+        font-family: 'Rock Salt', cursive;
+        font-size: 2em;
+        color: black; }
+      #heroimage #navbar-primary .navbar-nav > li #links {
+        font-size: 1.2em; }
+  #heroimage .navbar-inverse .navbar-nav > .active > a {
+    background-color: transparent; }
+  #heroimage .navbar-inverse {
+    background: transparent;
+    border: none; }
+
+header {
+  text-align: center;
+  opacity: .9;
+  color: #fff;
+  margin-top: 15em;
+  font-weight: 200; }
+  header h1 {
+    letter-spacing: 1.2em; }
+  header h2 {
+    font-weight: lighter;
+    letter-spacing: .3em; }
+
+#chevron_down {
+  margin-top: 15em;
+  text-align: center;
+  opacity: .7; }

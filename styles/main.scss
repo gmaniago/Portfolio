@@ -1,0 +1,67 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+html, body, #heroimage{
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif; 
+}
+
+//Navbar styling here
+#heroimage{   
+  background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/red-rock3.png") center center;
+  background-size:cover;
+    #navbar-primary .navbar-nav { 
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      > li {
+        display: inline-block;
+        float: none;
+        margin-top: .5em;
+      > a {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        color: #000;
+      }
+      #initials {
+        font-family: 'Rock Salt', cursive;
+        font-size: 2em;
+        color: black;
+      }
+      #links {
+        font-size: 1.2em;
+      }
+    }
+  }
+  .navbar-inverse .navbar-nav > .active > a {
+      background-color: transparent;
+  }
+  .navbar-inverse {
+    background: transparent;
+    border: none;
+  }
+}
+
+//header styling here
+header {
+  text-align: center;
+  opacity: .9;
+  color: #fff;
+  margin-top: 15em;
+  font-weight: 200;
+  h1 {
+    letter-spacing: 1.2em;
+  }
+  h2 {
+    font-weight: lighter;
+    letter-spacing: .3em;
+  }
+}
+
+#chevron_down {
+  margin-top: 15em;
+  text-align: center;
+  opacity: .7;
+}
+
