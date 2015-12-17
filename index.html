@@ -1,49 +1,196 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>Gladys M</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200|Rock+Salt' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="styles/main.sass.css">
-</head>
-<body>
-	<div id="heroimage">
-		<nav id="navbar-primary" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-   				</div>
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="collapse navbar-collapse" id="navbar-primary-collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="#home" id="links">Home</a></li>
-						<li><a href="#portfolio" id="links">Portfolio</a></li>
-						<li><a href="#" id="initials">G M</a></li>
-						<li><a href="#resume" id="links">Resume</a></li>
-						<li><a href="#contact" id="links">Contact</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-			<header>
-				<h1>GLADYS MANIAGO</h1>
-				<h2>Front-End Developer</h2>
-			</header>
-			<div id="chevron_down">
-				<img src="../images/chevron_down.png">
-			</div>
-		</nav>
-	</div>
+<html lang="en">
 
-	<main>
-		
-	</main>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gladys Maniago</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200|Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle" onClick="ga('send', '_trackEvent', 'Navbar', 'Toggle', 'Navbar toggle');"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="#top">Gladys Maniago</a>
+            </li>
+            <li><a href="#about" onClick="ga('send', '_trackEvent', 'Navbar', 'About');">About</a>
+            </li>
+            <li><a href="#portfolio" onClick="ga('send', '_trackEvent', 'Navbar', 'Portfolio');">Portfolio</a>
+            </li>
+            <li><a href="#contact" onClick="ga('send', '_trackEvent', 'Navbar', 'Contact');">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+            <div class="expandUp">
+                <h1 class="header_name">
+                    GLADYS MANIAGO
+                </h1>
+                <h3 class="header_title">Front-End Developer, Roller Coaster Enthusiast and Avid Reader</h3>
+            </div>
+            <ul class="list-inline spaced">
+                <li><a href="https://github.com/gmaniago" target="_blank" title="Github" alt="Github" onClick="ga('send', '_trackEvent', 'Links', 'Github', 'Github top');"><i class="fa fa-github fa-3x"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/gladys-maniago-1a591749" target="_blank" title="LinkedIn" alt="LinkedIn" onClick="ga('send', '_trackEvent', 'Links', 'LinkedIn', 'LinkedIn top');"><i class="fa fa-linkedin fa-3x"></i></a>
+                </li>
+                <li><a href="mailto:gfdmaniago@gmail.com" title="Email me" alt="Email me" target="_blank" onClick="ga('send', '_trackEvent', 'Links', 'Email', 'Email top');"><i class="fa fa-envelope-o fa-3x"></i></a>
+                </li>
+<!--                 <li><a href="resume.pdf" target="_blank" class="resume space-m" onClick="ga('send', '_trackEvent', 'Links', 'Resume', 'Resume top');">Resumé</a>
+                </li> -->
+            </ul>
+            <a href="#about" class="btn btn-default btn-lg call-to about-btn" onClick="ga('send', '_trackEvent', 'Links', 'What else');">About Me</a>
+
+        </div>
+
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="about"class="container-fluid">
+        <h3 class="col-sm-offset-1 about">About Me</h3>
+        <div class="row p_about">
+            <div class="col-sm-5 col-sm-offset-1">
+                <p>I was brought up in the Philippines, away from the technologies and the lifestyle that cuture shocked me when I arrived in California when I was 16. Albeit the initial frustrations, I have come to love living in America. It was around this time that I was given my own computer. A hand me down from one of my cousins. It was then that I learned delete didn't simply close an application rather, it erased it. It was then where I learned more about how a computer works and all the great things you can accomplish with it.</p>
+            </div>
+            <div class="col-sm-5">
+                <p>During my time at SolarCity, I performed most of my work using our own internal programs and as a new and upcoming company some of the applications that were used had some growing pains.  I cannot remember how many tickets we submitted to our Software team. In time, through collaboration and team work we were able to amend these growing pains. It was one thing to be able to point out some things that didn't make sense anymore and one thing to be able to do something about the problem. Hence, I enrolled through Iron Yard to reacquiant myself with programming and I've loved the technology ever since.  </p>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h3>Some of my Skills</h3>
+                <hr>
+                <dl class="dl-horizontal lead">
+                    <dt>Web Development</dt>
+                    <dd>HTML 5, CSS 3, Sass, Bootstrap, Materialize, Skeleton, JavaScript, jQuery, React, Backbone, Underscore and Gulp</dd>
+                    <dt>Database</dt>
+                    <dd>Parse</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="text-center"><a href="#contact" onClick="ga('send', '_trackEvent', 'Links', 'See more');">Contact <i class="fa fa-level-down"></i></a></div>
+    </div>
+    <!-- /Intro -->
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div id="portfolio" class="col-sm-10 col-sm-offset-1 text-center">
+                    <h3>Selected Works</h3>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div class="callout">
+         <div class="container-fluid portfolio text-center">
+            <div class="row">
+                <div class="col-md-12">
+<!--                     <img alt="Bootstrap Image Preview" src="img/paperback.png" class="img-thumbnail"/> -->
+                    <dl class="dl-horizontal lead">
+                        <dt>PaperBack</dt>
+                        <dd>Think of a old school Netflix but for books. Using the app, the reader will be able to register and log in to their account. Once logged in they will have the option of either searching for a book or browse books that are sorted through categories. Once the reader chooses one, they will be taken to a separate page that gives them details about the book.<a href="https://github.com/gmaniago/gmaniago.github.io">  View Code</a></dd>
+                    </dl>
+                    <img alt="Bootstrap Image Preview" src="img/paperback.png" class="img-thumbnail"/>
+                </div>
+                <div class="col-md-12">
+                    <dl class="dl-horizontal lead">
+                        <dt>Iron Quizzes</dt>
+                        <dd>Collaborated with 16 developers using React, Parse, and Skeleton, this app lets instructors login to create/edit tests and view multiple kinds of analytics. Students can also login and take tests assigned to their specific class. Scrum and Agile methods were incorporated in the making of this project.<a href="https://github.com/TIY-Austin-Front-End-Engineering/Iron-Quizzes">  View Code</a></dd>
+                    </dl>
+                    <img alt="Bootstrap Image Preview" src="img/ironquiz.png" class="img-thumbnail"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <dl class="dl-horizontal lead">
+                        <dt>BlogBox</dt>
+                        <dd>BlogBox is a simple blogging platform that enables its users to login and register to an account. From there on they may be able to view other's blog post and make their own. <a href="https://github.com/gmaniago/parse-react-blog">  View Code</a></dd>
+                    </dl>
+                    <img alt="Bootstrap Image Preview" src="img/blogbox.png" class="img-thumbnail" />
+                </div>
+<!--                 <div class="col-md-12">
+                    <img alt="Bootstrap Image Preview" src="img/hrpro.png" class="img-thumbnail"/>
+                </div> -->
+            </div>
+        </div>    
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Findoutmore -->
+    <div id="contact" class="call-to-action">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Findoutmore -->
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container bottom_banner">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center footer">
+                    <p>Let's talk.</p>
+                    <a href="resume.html" target="_blank" class="btn btn-md resume toSlideDown" onClick="ga('send', '_trackEvent', 'Links', 'Resume', 'Resume bottom');">Resumé</a>
+
+                    <ul class="list-inline">
+                        <li><a href="https://github.com/gmaniago" target="_blank" title="Github" alt="Github" onClick="ga('send', '_trackEvent', 'Links', 'Github', 'Github bottom');"><i class=" fa_black fa fa-github-square fa-2x"></i></a>
+                        </li>
+                        <li><a href="http://gmaniago.tumblr.com/" target="_blank" title="Tumblr" alt="Tumblr" onClick="ga('send', '_trackEvent', 'Links', 'Tumblr', 'Tumblr bottom');"><i class=" fa_black fa fa-tumblr-square fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/gfmaniago" target="_blank" title="Twitter" alt="Twitter" onClick="ga('send', '_trackEvent', 'Links', 'Twitter', 'Twitter bottom');"><i class=" fa_black fa fa-twitter-square fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/gladys-maniago-1a591749" target="_blank" title="LinkedIn" alt="LinkedIn" onClick="ga('send', '_trackEvent', 'Links', 'LinkedIn', 'LinkedIn bottom');"><i class="fa_black fa fa-linkedin-square fa-2x"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled size-m">
+                        <li><i class="fa fa-map-marker"></i> LAS VEGAS, NEVADA</li>
+                        <li><i class="fa fa-envelope-o"></i> <a href="mailto:gfdmaniago@gmail.com" target="_blank" onClick="ga('send', '_trackEvent', 'Links', 'Email', 'Email bottom');">gfdmaniago@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="top-scroll">
+                        <a href="#top" title="Back to top" alt="Back to top"><i class="fa fa-angle-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                    <span>Like the website? <a href="https://github.com/gmaniago" target="_blank" class="long-word" onClick="ga('send', '_trackEvent', 'Links', 'Fork it');">View it on GitHub</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrolldepth.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
 
-	
+
+
+
+
