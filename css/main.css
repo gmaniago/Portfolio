@@ -28,10 +28,17 @@ hr {
   font-weight: lighter;
 }
 
-.about {
-  padding-top: 4em;
+#about {
+  padding-bottom: 4em;
+  padding-top: 6em;
+  padding: 3em 3em 4em 3em;
 }
 
+#about h3 {
+  color: black;
+  font-weight: 200;
+  letter-spacing: .1em;
+}
 .p_about{
   font-size: 1.2em;
   padding-bottom: 2em;
@@ -65,6 +72,7 @@ dd {
 .skills dd {
   color: #F2F2F2;
 }
+
 .long-word {
   white-space: nowrap;
 }
@@ -79,7 +87,7 @@ dd {
 
 .resume {
   margin: 0px 0px 20px 0px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-decoration: none;
 }
 
@@ -185,23 +193,6 @@ dd {
   background-size: cover;
 }
 
-/* Intro */
-
-.intro {
-  padding: 50px 0;
-}
-
-/* Services */
-
-.services {
-  background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
-}
-
-.service-item {
-  margin-bottom: 15px;
-}
 
 /*.pixelMe {
   visibility: hidden;
@@ -211,24 +202,10 @@ dd {
   background: url(../img/pixelme.png);
 }*/
 
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
-
-/* Callout */
-
 /* Portfolio */
 
 .portfolio-piece {
-  padding: 3em 3em 0 3em;
+  padding: 1em 3em 0 3em;
   letter-spacing: .1em;
 }
 
@@ -241,25 +218,6 @@ i.service-icon {
 .portfolio-piece h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
-}
-
-.portfolio {
-  padding: 2em;
-}
-
-.portfolio img {
-  height: 300px;
-  width: 450px;
-  box-shadow: 0 0 0 10px rgba(0,0,0,0.3);
-  border-radius: .3em;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-}
-
-.porfolio p {
-  color: black;
-  font-size: 2em;
-  margin: 0 auto;
 }
 
 /* Call to Action */
