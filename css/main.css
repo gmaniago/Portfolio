@@ -7,6 +7,9 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+hr {
+  margin: 0 auto;
+}
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -17,6 +20,7 @@ body {
 
 .header_name{
   letter-spacing: .7em;
+  font-weight: 200;
 }
 
 .header_title {
@@ -50,6 +54,17 @@ dd {
   color: #696969;
 }
 
+/*Skills*/
+
+.skills {
+  background: #515265;
+  color: #F2F2F2;
+  padding: 4em 0;
+}
+
+.skills dd {
+  color: #F2F2F2;
+}
 .long-word {
   white-space: nowrap;
 }
@@ -212,18 +227,26 @@ i.service-icon {
 
 /* Portfolio */
 
-#portfolio .row {
-  max-width: 900px;
-  margin:0 auto;
+.portfolio-piece {
+  padding: 3em 3em 0 3em;
+  letter-spacing: .1em;
 }
 
-#portfolio h3 {
-  margin-top: 4em;
+.portfolio-piece h4 {
+  color:#696969;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+.portfolio-piece h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
 }
 
 .portfolio {
   padding: 2em;
 }
+
 .portfolio img {
   height: 300px;
   width: 450px;
@@ -239,13 +262,7 @@ i.service-icon {
   margin: 0 auto;
 }
 
-
 /* Call to Action */
-
-.call-to-action {
-  padding: 5px 0;
-}
-
 .call-to-action .btn {
   margin: 10px;
 }
@@ -259,6 +276,23 @@ i.service-icon {
   color: #ffffff;
 }
 
+.resume-banner{
+  background: #76C8B7;
+  padding-top: 7em;
+  padding-right: 5em;
+  padding-left: 5em;
+  color: #FCFCFC;
+  height: 20em;
+  letter-spacing: .15em;
+  font-weight: 200;
+}
+
+.resume-banner a {
+  border: 2px solid #FCFCFC;
+  color: #FCFCFC;
+  letter-spacing: .1em;
+  font-weight: lighter;
+}
 /*Find out more*/
 
 li {
@@ -274,15 +308,15 @@ li {
 /* Footer */
 
 .bottom_banner {
-  background: black;
+  background: #515265;
   max-width: 100%;
   color: white;
+  padding-top: 5em;
 }
 
 .footer > p{
   font-size: 40px;
-  color: #d3d3d3;
-  margin-top: 2em;
+  color: #ffffff;
   letter-spacing: .2em;
 }
 
