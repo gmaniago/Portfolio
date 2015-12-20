@@ -7,6 +7,9 @@ html, body{
   background-repeat: repeat;
 }
 
+.container-fluid {
+	padding: 2em;
+}
 h3 {
 	margin: 0 auto;
 }
@@ -24,6 +27,11 @@ li, p {
 span {
 	font-size: .7em;
 	font-family: 'Lora', serif;
+	padding-left: 1.5em;
+}
+
+a {
+	color: red;
 }
 
 /*Header*/
@@ -43,14 +51,14 @@ header p {
 }
 
 hr {
-	color: black;
+	border-color: #CECECE;
 }
 
-/*Profile*/
-
-.profile {
-	color: red;
+.row {
+	padding-top: 2em;
 }
+
+
 
 
 

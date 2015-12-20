@@ -25,23 +25,38 @@ hr {
 
 .header_title {
   letter-spacing: .1em;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
+
 #about {
-  padding-bottom: 4em;
-  padding-top: 6em;
-  padding: 3em 3em 4em 3em;
+  padding: 4em 6em 8em 6em; 
 }
 
 #about h3 {
   color: black;
   font-weight: 200;
   letter-spacing: .1em;
+  padding: 0;
 }
+
 .p_about{
   font-size: 1.2em;
   padding-bottom: 2em;
+  color: #696969;
+  font-weight: 200;
+}
+
+#quote {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #696969;
+  font-size: 1.7em;
+  font-weight: 200;
+  margin: 0 auto;
+}
+
+#disney {
+  font-family: 'Source Sans Pro', sans-serif;
   color: #696969;
 }
 
@@ -49,7 +64,6 @@ hr {
   padding: 0;
   margin: 0;
   font-size: 4em;
-  font-weight: 300;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -66,11 +80,20 @@ dd {
 .skills {
   background: #515265;
   color: #F2F2F2;
-  padding: 4em 0;
+  padding: 4em 3em;
+}
+
+.skills h3{
+  font-weight: 200;
+}
+
+.skills dt {
+  font-weight: 200;
 }
 
 .skills dd {
   color: #F2F2F2;
+  font-weight: 200;
 }
 
 .long-word {
@@ -99,7 +122,7 @@ dd {
   width: 250px;
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
-  height: 200px;
+  height: 220px;
   border-bottom-left-radius: 20px;
   overflow-y: auto;
   z-index: 1000;
@@ -193,17 +216,6 @@ dd {
   background-size: cover;
 }
 
-
-/*.pixelMe {
-  visibility: hidden;
-  height: 300px;
-  width: 200px;
-  margin:  2em;
-  background: url(../img/pixelme.png);
-}*/
-
-/* Portfolio */
-
 .portfolio-piece {
   padding: 1em 3em 0 3em;
   letter-spacing: .1em;
@@ -242,6 +254,9 @@ dd {
   color: #FCFCFC;
   height: 20em;
   letter-spacing: .15em;
+}
+
+.resume-banner h3 {
   font-weight: 200;
 }
 
@@ -249,7 +264,7 @@ dd {
   border: 2px solid #FCFCFC;
   color: #FCFCFC;
   letter-spacing: .1em;
-  font-weight: lighter;
+  font-weight: 200;
 }
 /*Find out more*/
 
@@ -270,6 +285,7 @@ li {
   max-width: 100%;
   color: white;
   padding-top: 5em;
+  font-weight: 200;
 }
 
 .footer > p{
@@ -336,7 +352,5 @@ i.scroll:hover {
   color:inherit;
 }
 
-.shy-a h1 {
-  background: #0a5175;
-}
+
 
